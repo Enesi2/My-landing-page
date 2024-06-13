@@ -1,96 +1,375 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Full Stack Developer Portfolio</title>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <title>Fatokun Olawale</title>
+  <!-- import bootstrap, font awesome & custom style -->
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="fonts/fontawesome-free-5.15.1-web/css/all.css">
+  <link rel="stylesheet" href="css/font.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="plugins/slick/slick.css">
+  <link rel="stylesheet" href="plugins/slick/slick-theme.css">
+  <!-- import jquery and bootstrap -->
+  <script src="js/jquery.min.js"></script>
+  <script src="plugins/bootstrap/bootstrap.min.js"></script>
+  <script src="plugins/particles-js/particles.min.js"></script>
+  <script type="text/javascript" src="plugins/slick/slick.min.js"></script>
 </head>
+
 <body>
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">MXCODED</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#projects">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
-          </li>
-        </ul>
+  <section class="top-nav-sec">
+    <div class="top-nav-wrapper">
+      <div class="top-nav">
+        <a href="javascript:;">
+          <div class="sticky-menu">
+            <i class="fas fa-bars"></i>
+          </div>
+        </a>
+        <div class="left-icon-area">
+          <p>Fatokun <span>Muideen Olawale</span></p>
+        </div>
+        <div class="center-btn-area">
+          <ul>
+            <li data-target="about">
+              <a href="#">About</a>
+            </li>
+            <li data-target="experience">
+              <a href="#">Experience</a>
+            </li>
+            <li data-target="portfolio">
+              <a href="#">Portfolio</a>
+            </li>
+            <li data-target="education">
+              <a href="#">Education</a>
+            </li>
+            <li data-target="contact">
+              <a href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="right-btn-area">
+          <div class="nav-get-started">
+            <a href="#" class="button-look get-started">Hello ??</a>
+          </div>
+          <div class="side-menu">
+            <div class="side-menu-burger">
+              <i class="fas fa-bars"></i>
+            </div>
+          </div>
+        </div>
+        <div class="mobile-bottom-contact">
+          <div class="nav-phone-number">
+            <p>Call us for more information</p>
+            <a href="tel:+905464316209">+90546431620</a>
+          </div>
+          <div class="nav-social-media">
+        
+            </a>
+            <a href="http://wa.me/90546431620" target="_blank">
+              <i class="fab fa-whatsapp"></i>
+            </a>
+          </div>
+        </div>
       </div>
-    </nav>
-  </header>
-
-  <section id="hero" class="jumbotron text-center">
-    <div class="container">
-      <img class="rounded" src="https://avatars.githubusercontent.com/u/97896663?v=4" alt="MyPhoto">
-      <h1 class="display-4">Oluwasheyi Makanjuola</h1>
-      <h2 class="lead">Full Stack Developer</h2>
-      <a href="#contact" class="btn btn-primary btn-lg">Hire Me</a>
     </div>
   </section>
-
-  <section id="about" class="py-5">
+  <section class="landing-section landing-fade-up-box">
     <div class="container">
-      <h2 class="mb-4">About Me</h2>
-      <p>
-        Hi, I'm Oluwasheyi, a passionate Full Stack Developer with experience in building web applications. I have a strong foundation in front-end and back-end technologies, including HTML, CSS, JavaScript, Node.js, Php, C, and databases like MySQL and MongoDB.
-      </p>
-      <p>
-        I love solving problems and creating efficient, scalable solutions. I'm a quick learner and enjoy keeping up with the latest trends in web development. My goal is to deliver high-quality software that meets the client's requirements and provides a great user experience.
-      </p>
-    </div>
-  </section>
-
-  <section id="projects" class="bg-light py-5">
-    <div class="container">
-      <h2 class="mb-4">Projects</h2>
       <div class="row">
-        <div class="col-lg-4 mb-4">
-          <div class="card">
-            <div class="card-body">
-              <h3 class="card-title">Portfolio Website</h3>
-              <p class="card-text">Just Like this one.</p>
-              <a href="#" class="btn btn-primary">View Project</a>
+        <div class="col-md-12 landing-left-text">
+          <h2><span class="landing-fade-up-item">Fatokun</span> <span class="platinum-color landing-fade-up-item">Muideen Olawale</span> <br> <span class="landing-fade-up-item">Software Engineer</span></h2>
+          <p class="mobile-text-center landing-fade-up-item">“Welcome to my portfolio”
+          </p>
+          <div class="landing-get-started landing-fade-up-item">
+            <a href="#" class="button-look get-started">Hello ??</a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 landing-effect-right landing-fade-up-item">
+          <div class="laptop-wrapper">
+            <img src="https://www.newpages2u.com/userfiles/22643/image/home-mac.png" alt="">
+            <div class="screen-wrapper">
+              <div class="laptop-screen">
+                <div class="laptop-cursor">
+                  <svg width="100%" height="100%" viewBox="0 0 332 322" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10.5 9L147 310.5L214 199.5M10.5 9L214 199.5M10.5 9L320.5 125L214 199.5" stroke="#000"
+                      stroke-width="10" fill="#000" />
+                  </svg>
+                </div>
+                <div class="container h-100">
+                  <div class="row selections">
+                    <div class="col-md-12 selections-title">
+                      <p>Skills</p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12">
+                      <p class="text-center mb-2">Programming Languages & Frameworks</p>
+                    </div>
+                    <div class="col-md-12">
+                      <div class="languages-box d-flex flex-wrap justify-content-center mx-auto">
+                        <div class="languages">
+                          <img src="./images/icon/800px-Devicon-html5-plain-wordmark.svg.png" alt="">
+                        </div>
+                        <div class="languages">
+                          <img src="./images/icon/CSS3_logo_and_wordmark.svg.png" alt="">
+                        </div>
+                        <div class="languages">
+                          <img src="./images/icon/javascript.png" alt="">
+                        </div>
+                        <div class="languages">
+                          <img src="./images/icon/node.png" alt="">
+                        </div>
+                        <div class="languages">
+                          <img src="./images/icon/768px-Vue.js_Logo_2.svg.png" alt="">
+                        </div>
+                        <div class="languages">
+                          <img src="./images/icon/react.png" alt="">
+                        </div>
+                        <div class="languages">
+                          <img src="./images/icon/java.png" alt="">
+                        </div>
+                        <div class="languages">
+                          <img src="./images/icon/PHP-logo.svg.png" alt="">
+                        </div>
+                        <div class="languages">
+                          <img src="./images/icon/75px-Laravel.svg.png" alt="">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12">
+                      <p class="text-center my-2">Tools</p>
+                    </div>
+                    <div class="col-md-12">
+                      <div class="languages-box d-flex flex-wrap justify-content-center mx-auto">
+                        <div class="languages">
+                          <img src="./images/icon/Git_icon.svg.png" alt="">
+                        </div>
+                        <div class="languages">
+                          <img src="./images/icon/figma-logo.png" alt="">
+                        </div>
+                        <div class="languages">
+                          <img src="./images/icon/postman-icon.png" alt="">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="person-beside">
+              <svg width="100%" height="100%" viewBox="0 0 275 494" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M192.631 259.732C192.717 257.924 193.198 256.157 194.04 254.555C194.883 252.953 196.066 251.556 197.507 250.461C198.949 249.366 200.612 248.6 202.381 248.217C204.15 247.835 205.982 247.845 207.746 248.247L224.118 225.174L240.566 231.704L216.988 263.962C216.117 266.882 214.204 269.381 211.613 270.985C209.023 272.589 205.933 273.187 202.931 272.666C199.929 272.144 197.222 270.54 195.324 268.156C193.425 265.772 192.467 262.775 192.631 259.732L192.631 259.732Z"
+                  fill="#A0616A" />
+                <path
+                  d="M210.591 239.89L239.7 190.933L227.841 159.307L243.993 116.233L244.589 116.489C244.979 116.656 254.157 120.752 255.517 135.418L274.079 193.755L224.54 258.022L210.591 239.89Z"
+                  fill="#3F3D56" />
+                <path d="M149.887 449.434H133.701L126 387L149.89 387.001L149.887 449.434Z" fill="#F7D6C3" />
+                <path
+                  d="M117.887 445.768H153.872V465.423H103V460.655C103 456.707 104.568 452.92 107.36 450.128C110.152 447.337 113.939 445.768 117.887 445.768Z"
+                  fill="#2F2E41" />
+                <path d="M220.784 478.297H204.597L196.897 415.863L220.786 415.864L220.784 478.297Z" fill="#F7D6C3" />
+                <path
+                  d="M188.267 473.672H224.252V493.327H173.38V488.558C173.38 484.61 174.949 480.824 177.74 478.032C180.532 475.24 184.319 473.672 188.267 473.672V473.672Z"
+                  fill="#2F2E41" />
+                <path
+                  d="M226.54 250.407L225.22 342.828L223.9 464.295L194.853 461.654L179.5 294.5L175.5 292L145.5 336L152 432L124.5 427.5L104.5 324.5L139.401 250.407H226.54Z"
+                  fill="#2F2E41" />
+                <path
+                  d="M136.506 256.252L130 254.5L152.635 142.834L144.219 108.61C143.781 106.83 144.012 104.951 144.868 103.329C145.724 101.707 147.144 100.456 148.861 99.8116L164.003 94.1339L169.352 79.4225L211.558 83.9705L212.596 95.4678C217.17 96.9346 254.833 109.478 252.234 123.77C249.67 137.877 234.525 182.259 233.756 184.508L231.104 248.157L230.778 248.32C230.385 248.516 201.294 262.821 169.689 262.818C158.56 262.818 147.112 261.043 136.506 256.252Z"
+                  fill="#3F3D56" />
+                <g class="turning-head">
+                  <path
+                    d="M215.466 56.3296C223.516 41.603 218.104 23.1388 203.378 15.0885C188.651 7.03825 170.187 12.4505 162.136 27.177C154.086 41.9036 159.498 60.3678 174.225 68.4181C188.952 76.4683 207.416 71.0562 215.466 56.3296Z"
+                    fill="#F7D6C3" />
+                  <path
+                    d="M213.416 71.1705C207.625 77.3396 196.869 74.0279 196.115 65.6001C196.055 64.9457 196.06 64.2872 196.127 63.6337C196.517 59.9006 198.674 56.5113 198.157 52.5696C198.04 51.5886 197.675 50.6537 197.095 49.8535C192.48 43.6736 181.647 52.6176 177.292 47.0232C174.621 43.5928 177.76 38.1918 175.711 34.3577C173.006 29.2974 164.994 31.7937 159.97 29.0224C154.38 25.939 154.714 17.3622 158.394 12.1453C162.881 5.78305 170.75 2.38819 178.52 1.89892C186.29 1.40965 194.007 3.51014 201.261 6.33722C209.504 9.54935 217.677 13.9885 222.749 21.2361C228.918 30.0498 229.511 41.899 226.426 52.205C224.55 58.4743 218.145 66.1328 213.416 71.1705Z"
+                    fill="#2F2E41" />
+                </g>
+                <g class="waving-arm">
+                  <path
+                    d="M12.4471 106.262C14.1354 105.61 15.9462 105.336 17.7519 105.459C19.5576 105.582 21.3144 106.099 22.8985 106.975C24.4826 107.85 25.8554 109.063 26.9203 110.526C27.9852 111.99 28.7163 113.669 29.0621 115.445L56.7836 121.095L57.4593 138.778L18.4233 130.251C15.4002 130.634 12.3417 129.894 9.8272 128.173C7.31275 126.452 5.51707 123.868 4.78044 120.911C4.0438 117.954 4.41739 114.83 5.83041 112.13C7.24343 109.43 9.5977 107.342 12.4471 106.262Z"
+                    fill="#F7D6C3" />
+                  <path
+                    d="M42.7306 117.07L104.711 120.57L151 100.5L172 123L164 134.5L104.711 149.783L34.7306 135.787L42.7306 117.07Z"
+                    fill="#3F3D56" />
+                </g>
+              </svg>
+            </div>
+          </div>
+          <div class="phone-wrapper">
+            <img src="https://www.newpages2u.com/userfiles/22643/image/home-phone.png" alt="">
+            <div class="phone-screen-wrapper">
+              <div class="phone-screen">
+                <div class="container">
+                  <div class="row selections">
+                    <div class="col-md-12 selections-title">
+                      <p>Skills</p>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col-lg-4 mb-4">
-          <div class="card">
-            <div class="card-body">
-              <h3 class="card-title">Hotel ERP</h3>
-              <p class="card-text">Coming Soon.</p>
-              <a href="#" class="btn btn-primary">View Project</a>
-            </div>
-          </div>
-        </div>
-        <!-- Add more project sections as needed -->
+      </div>
+    </div>
+    <!-- <div id="particles-js"></div> -->
+    <div class="bubble-container">
+      <div class="bubble-wrapper">
       </div>
     </div>
   </section>
-
-  <section id="contact" class="py-5">
-    <div class="container">
-      <h2 class="mb-4">Contact Me</h2>
-      <p>If you have any questions or would like to discuss a potential project, feel free to get in touch with me. I'm available for freelance work and open to new opportunities.</p>
-      <a href="mailto:jaywoncoded@gmail.com" class="btn btn-primary">Email Me</a>
+  <section class="text-running-way-sec">
+    <div class="text-desc">
+      <p class="mobile-text-center">“Every day I grind!”</p>
+    </div>
+    <div class="text-running-way-left text-running-way">
+      <div class="text-row">
+        <div class="single-services-list">
+          <div class="service-name">HTML</div>
+          <div class="break"></div>
+          <div class="service-name">CSS</div>
+          <div class="break"></div>
+          <div class="service-name">JavaScript</div>
+          <div class="break"></div>
+          <div class="service-name">Vue.js</div>
+          <div class="break"></div>
+          <div class="service-name">React</div>
+          <div class="break"></div>
+        </div>
+      </div>
+    </div>
+    <div class="text-running-way-right text-running-way">
+      <div class="text-row">
+        <div class="single-services-list">
+          <div class="service-name">PHP</div>
+          <div class="break"></div>
+          <div class="service-name">Laravel</div>
+          <div class="break"></div>
+          <div class="service-name">Node.js</div>
+          <div class="break"></div>
+          <div class="service-name">SQL</div>
+          <div class="break"></div>
+          <div class="service-name">Git</div>
+          <div class="break"></div>
+          <div class="service-name">Java</div>
+          <div class="break"></div>
+        </div>
+      </div>
     </div>
   </section>
+  <section class="about-section" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 fade-up-box">
+          <img src="./images/me.jpg" alt="" class="fade-up-item">
+        </div>
+        <div class="col-md-7 what-is mobile-text-center fade-up-box">
+          <span class="fade-up-item">About Me</span>
+          <h3 class="fade-up-item">Fatokun Muideen Olawale</h3>
+          <p class="fade-up-item">
+           Greetings! I am Fatokun Muideen Olawale, a passionate and dedicated software engineer with a deep love for crafting clean and efficient code. My journey in the world of programming began with a curiosity-driven exploration and has evolved into a fulfilling career. With a background in computer science and years of hands-on experience, I specialize in developing robust and scalable software solutions. My expertise includes a wide array of programming languages, frameworks, and technologies, allowing me to tackle complex challenges with innovative and creative solutions
+          </p>
+          <p class="fade-up-item">
+            I thrive in collaborative environments, where my strong communication skills and teamwork abilities shine. I am committed to staying at the forefront of technological advancements, ensuring that my work is always cutting-edge. I am not just a coder; I am a problem solver, a continuous learner, and a tech enthusiast. I take pride in turning ideas into reality and am excited about the endless possibilities that software engineering offers. Let's build something amazing together!
+          </p>
+        </div>
+        <div class="col-md-1">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="three-board-section" id="experience">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 three-board-desc fade-up-box">
+          <span class="fade-up-item">Experience</span>
+          <h3 class="mobile-text-center fade-up-item">Experience is a Great Teacher</h3>
+        </div>
+      </div>
+    </div>
+    <div class="sticky-height">
+      <div class="sticky-3-board">
+        <div class="container-fluid sticky-relative">
+          <div class="row single-board">
+            <div class="col-md-12">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-2"></div>
+                  <div class="col-md-8 advantages-detail">
+                    <div class="single-advantage mobile-text-center fade-up-box">
+                      <span class="fade-up-item">May 2020 - December 2021</span>
+                      <h4 class="fade-up-item">Intern | <small>DEF Tech Enterprises</small></h4>
+                      <p class="fade-up-item">As an intern at DEF Tech Enterprises, I had the opportunity to work on diverse projects, giving me exposure to various programming languages and frameworks. I collaborated with senior developers, learning the nuances of software architecture and design patterns. I actively contributed to the team, enhancing my problem-solving skills and understanding of real-world software development challenges.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-2"></div>
+              </div>
+            </div>
+          </div>
+          <div class="row single-board">
+            <div class="col-md-12">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-2"></div>
+                  <div class="col-md-8 advantages-detail">
+                    <div class="single-advantage mobile-text-center fade-up-box">
+                      <span class="fade-up-item">January 2022 - June 2022</span>
+                      <h4 class="fade-up-item">Junior Software Developer | <small>Kotlin Software Innovators</small></h4>
+                      <p class="fade-up-item">During my time at ABC Software Innovators, I was involved in the complete software development lifecycle. I participated in requirements gathering, coding, testing, and deployment of software applications. I gained valuable experience in mobile app development for both Android and iOS platforms using technologies such as Flutter and React Native. Additionally, I assisted in troubleshooting and enhancing existing software systems, improving their efficiency and functionality.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-md-2"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row single-board">
+            <div class="col-md-12">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-2"></div>
+                  <div class="col-md-8 advantages-detail">
+                    <div class="single-advantage mobile-text-center fade-up-box">
+                      <span class="fade-up-item">November 2022 - Present</span>
+                      <h4 class="fade-up-item">Software Engineer | <small>Early Tech Solutions</small></h4>
+                      <p class="fade-up-item">At Early Tech Solutions, I have honed my skills in full-stack web development. I've actively contributed to the development of cutting-edge web applications using technologies like React.js and Node.js. My role involves collaborating with cross-functional teams to design and implement scalable software solutions. I've successfully delivered several projects on time, ensuring high-quality code and optimal performance.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-md-2"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="features-section" id="features">
 
-  <footer class="bg-dark text-white text-center py-3">
-    <p>&copy; 2023 Oluwasheyi. All rights reserved.</p>
-  </footer>
-
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</body>
-</html>
+  </section>
+  <section class="portfolio-section" id="portfolio">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-6 col-md-6 left-portfolio-text mobile-text-center">
+          <span>Portfolio</span>
+          <h3>Practice make<br> prefect.</h3>
+          <p>In the realm of craftsmanship, the essence of excellence lies not in quantity but in quality This steadfast devotion to the pursuit of excellence defines my approach to software engineering, ensuring that every project undertaken is a masterpiece in its own right</p>
+        </div>
+        <div class="col-
